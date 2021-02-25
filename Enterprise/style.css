@@ -162,7 +162,8 @@ li a {
     position: absolute;
     left:100px;
     right:100px;
-    top: 1518px;
+    top: 1410px;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 .award img {

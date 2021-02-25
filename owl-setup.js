@@ -11,10 +11,10 @@ owl.owlCarousel({
             items: 5
         },
         960: {
-            items: 11
+            items: 7
         },
         1200: {
-            items: 11   // change this number to change number of items to appear
+            items: 7   // change this number to change number of items to appear
         }
     }
 });

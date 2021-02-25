@@ -192,6 +192,15 @@ li a {
     padding-bottom: 30px;
 }
 
+.owl-carousel .owl-item img {
+    width: 80% !important;
+    height: 70px;
+}
+
+.owl-carousel {
+    padding: 10px 0px;
+}
+
 /* region  */
 .region {
     background-color: #FAFAFA;
@@ -528,6 +537,11 @@ footer button {
         padding: 10px 0px
     }
 
+    .owl-carousel .owl-item img {
+        width: 100% !important;
+        height: 72px;
+    }
+
     .comment h3 {
         font-weight: 300;
         font-size: 15px;
@@ -613,6 +627,11 @@ footer button {
     
     .tool-row div {
         padding: 10px 0px
+    }
+
+    .owl-carousel .owl-item img {
+        width: 100% !important;
+        height: 72px;
     }
 
     .comment h3 {

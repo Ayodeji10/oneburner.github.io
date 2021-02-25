@@ -92,7 +92,7 @@ li a {
 
 /* collaborate */
 .collaborate {
-    padding-bottom: 60px;
+    padding-bottom: 85px;
 }
 
 .collaborate div {
@@ -208,6 +208,14 @@ li a {
     padding-bottom: 30px;
 }
 
+.owl-carousel .owl-item img {
+    width: 80% !important;
+    height: 70px;
+}
+
+.owl-carousel {
+    padding: 10px 0px;
+}
 /* free trial */
 .free-trial {
     background-color: #7837F8 ;
@@ -578,6 +586,11 @@ footer button {
     .free-trial p {
         font-size: 18px;
     }
+    
+    .owl-carousel .owl-item img {
+        width: 100% !important;
+        height: 72px;
+    }
 
     /* footer  */
     footer{
@@ -682,6 +695,11 @@ footer button {
     
     .tool-row div {
         padding: 10px 0px
+    }
+
+    .owl-carousel .owl-item img {
+        width: 100% !important;
+        height: 72px;
     }
 
     /* footer  */

@@ -1,0 +1,640 @@
+/* .container-fluid {
+    padding: 0px;
+    margin: 0px;
+} */
+
+/* @font-face {
+    src: url(fonts/SofiaProRegular Az.otf);
+    font-family: sofia pro;
+} */
+
+li, a, h1, h2, h3, h4, h5, h6, p, span, i, button {
+    font-family: sofia pro;
+}
+
+/* navbar */
+ul li {
+    font-family: sofia pro;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 0px 10px;
+}
+
+li a {
+    color: black !important
+}
+
+/* .second-nav li {
+    padding-top: 10px;
+} */
+
+.navbar-toggler {
+    background: #462686;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+
+.navbar-toggler span + span {
+    width: 18px;
+    margin: 4px 0 0 4px;
+    width: 22px;
+}
+
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 4px;
+}
+
+.navbar-brand img {
+    height:90px
+}
+
+.navbar .button {
+    background-color: #462686;
+    color: white !important;
+    border-radius: 30px;
+    width: 179px;
+    text-align: center;
+}
+
+.mega-menu {
+    /* width: 1410px; */
+    overflow: hidden;
+    padding: 10px;
+    border: 0px;
+    padding: 65px 0px
+}
+
+.mega-menu i {
+    font-size: 20px;
+    color: rgba(70, 38, 134, 1);
+}
+
+.mega-menu h1 {
+    font-size: 16px;
+}
+
+.mega-menu p {
+    font-size: 14px;
+    color: #C4C4C4;
+    line-height: 20px;
+    padding-left: 40px;
+}
+
+/* banner  */
+.banner {
+    padding: 40px 0px;
+}
+
+/* brands */
+.brands {
+    margin-bottom: 85px;
+}
+.brands p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.brands .center {
+    margin: auto 0px
+}
+
+/* about */
+.about {
+    background-color: #7837F8;
+    padding: 60px 0px 220px 0px;
+    margin-bottom: 220px;
+}
+
+.about #text {
+    padding-left: 166px;
+}
+
+
+.about h3 {
+    text-align: center;
+    font-size: 33px;
+    line-height: 48px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.about p {
+    margin: 0px auto;
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.about i, .about span {
+    color: white;
+    font-size: 15px;
+}
+
+.about .merit{
+    padding-left: 130px;
+}
+
+.merit div {
+    padding-bottom: 22px;
+}
+
+/* award */
+.award {
+    border-radius: 15px;
+    margin: 0px auto;
+    padding: 25px 123px;
+    height: 295px;
+    width: 940px;
+    background-color: white;
+    position: absolute;
+    left:100px;
+    right:100px;
+    top: 1518px;
+}
+
+.award img {
+    float: left;
+    height: 200px
+}
+
+.award #for {
+    float: right;
+    padding-top: 70px;
+}
+
+/* tools  */
+.tools {
+    padding: 60px 0px;
+    margin: auto 0px;
+}
+
+.tools h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    padding-bottom: 80px;
+}
+
+.tools .tool-row {
+    padding-bottom: 30px;
+}
+
+/* region  */
+.region {
+    background-color: #FAFAFA;
+    padding: 70px 0px;
+}
+
+.region h1, .region p {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+/* comment  */
+.comment {
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.comment h3 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 44px;
+}
+
+.comment img {
+    height: 100px
+}
+
+
+
+
+
+
+/* sales  */
+.sales {
+    background-color: #FAFAFA;
+    padding: 100px 0px
+}
+
+.sales h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    padding-bottom: 40px;
+}
+
+.sales button {
+    width:274px;
+    height: 73px;
+    border-radius: 30px;
+    background-color: #462686;
+    color: white
+}
+
+
+/* footer  */
+footer {
+    padding: 64px 97px;
+}
+
+#footer-logo {
+    height: 108px
+}
+
+footer h3 {
+    color: #454545;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+footer p {
+    color: #C4C4C4;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+#terms {
+    padding-bottom: 75px;
+}
+
+#call {
+    margin-bottom: 33px;
+}
+
+#handles i {
+    color: #333333;
+    padding-right: 8px
+}
+
+footer button {
+    float: right;
+    background-color: white;
+    color: #462686;
+    Font-size: 16px;
+    border: solid 1px #462686;
+    border-radius: 10px;
+    padding:0px 20px;
+    text-align: left;
+    width: 219px;
+    height: 48px;
+    margin-bottom: 59px;
+}
+
+.menu .row{
+    clear:right
+}
+
+.menu h3 {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.menu p{
+    font-size: 13px;
+}
+
+
+
+
+/* media queries */
+@media (min-width: 1376px) {
+    .mega-menu {
+        width: 1410px
+    }
+    
+    .dropdown-menu {
+        left: -230px
+    }
+}
+
+@media (min-width: 1201px) and (max-width:1375px){
+    ul li {
+        font-size: 15px;
+    }
+
+    .mega-menu {
+        width: 1055px
+    }
+    
+    .dropdown-menu {
+        left: -230px
+    }
+
+    .award {
+        top: 1442px;
+    }
+}
+
+@media (min-width: 990px) and (max-width:1200px){
+    /* navbar  */
+    .navbar-brand img {
+        height: 80px;
+    }
+
+    .navbar .button {
+        width: 119px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    .mega-menu {
+        width: 1055px
+    }
+    
+    .dropdown-menu {
+        left: -230px
+    }
+
+    .about #text {
+        padding-left: 80px;
+    }
+
+    .about p {
+        line-height: 28px;
+    }
+
+    .about h3 {
+        margin-bottom: 35px;
+    }
+
+    .about .merit {
+        padding-left: 35px;
+    }
+
+    .award {
+        top: 1290px;
+        padding: 0px 75px;
+        width: 831px;
+        height: 210px
+    }
+}
+
+@media (min-width: 768px) and (max-width:989px){
+    /* navbar  */
+    .navbar-brand img {
+        height: 70px;
+    }
+
+    .navbar .button {
+        width: 119px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    .mega-menu {
+        width: 880px;
+        padding: 10px;
+    }
+
+    .about {
+        padding: 60px 0;
+        margin: 0px
+    }
+
+    .about #text {
+        padding-left: 55px;
+    }
+
+    .about p {
+        line-height: 28px;
+    }
+
+    .about h3 {
+        margin-bottom: 35px;
+    }
+
+    .about .merit {
+        padding-left: 35px;
+    }
+
+    .award {
+        display: none;
+        top: 1190px;
+        padding: 0px 75px;
+        width: 755px;
+        height: 210px
+    }
+
+    .award img{
+        height: 160px;
+    }
+
+    .award #for {
+        padding-top: 55px;
+    }
+
+    .comment h3 {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 44px;
+    }
+
+    .sales {
+        padding: 60px 0;
+    }
+
+    .sales h1 {
+        font-size: 30px;
+        line-height: 48px;
+        padding-bottom: 19px;
+    }
+
+    .sales button {
+        width: 223px;
+        height: 53px;
+    }
+
+    /* footer  */
+    footer{
+        padding: 0px 97px;
+    }
+
+    #footer-logo {
+        height: 90px;
+    }
+
+    #terms {
+        padding-bottom: 25px;
+    }
+
+    footer .menu {
+        padding: 40px 0px
+    }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+    .mega-menu {
+        width: 355px;
+        padding: 10px;
+    }
+    
+    .about {
+        padding: 60px 0;
+        margin: 0px
+    }
+    
+    .about #text {
+        padding: 0 35px 25px 35px;
+        text-align: center;
+    }
+
+    .about p {
+        line-height: 28px;
+    }
+
+    .about h3 {
+        margin-bottom: 35px;
+    }
+    
+    .about .merit {
+        padding-left: 35px;
+    }
+
+    .award {
+        display: none;
+    }
+
+    /* tools  */
+    .tools h1 {
+        font-size: 27px;
+        line-height: 37px;
+        padding-bottom: 27px;
+    }
+
+    .tool-row div {
+        padding: 10px 0px
+    }
+
+    .comment h3 {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .sales {
+        padding: 60px 0;
+    }
+
+    .sales h1 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-bottom: 19px;
+    }
+
+    .sales button {
+        width: 179px;
+        height: 44px;
+    }
+
+    /* footer  */
+    footer{
+        padding: 0px 90px;
+    }
+
+    #footer-logo {
+        height: 90px;
+    }
+
+    #terms {
+        padding-bottom: 25px;
+    }
+
+    footer .menu {
+        padding: 40px 0px
+    }
+}
+
+@media (max-width: 375px) {
+    ul li {
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    .mega-menu {
+        width: 300px;
+        padding: 10px;
+    }
+    
+    .about {
+        padding: 60px 0;
+        margin: 0px
+    }
+    
+    .about #text {
+        padding: 0 35px 25px 35px;
+        text-align: center;
+    }
+
+    .about p {
+        line-height: 28px;
+    }
+
+    .about h3 {
+        margin-bottom: 35px;
+    }
+    
+    .about .merit {
+        padding-left: 35px;
+    }
+
+    .award {
+        display: none;
+    }
+
+    /* tools  */
+    .tools h1 {
+        font-size: 27px;
+        line-height: 37px;
+        padding-bottom: 27px;
+    }
+    
+    .tool-row div {
+        padding: 10px 0px
+    }
+
+    .comment h3 {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    /* footer  */
+    footer{
+        padding: 0px 30px;
+    }
+
+    #footer-logo {
+        height: 90px;
+    }
+
+    #terms {
+        padding-bottom: 25px;
+    }
+
+    footer .menu {
+        padding: 40px 0px
+    }
+}

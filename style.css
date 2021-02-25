@@ -1,0 +1,705 @@
+/* .container {
+    margin: auto 95px;
+} */
+
+/* @font-face {
+    src: url(fonts/SofiaProRegular Az.otf);
+    font-family: sofia pro;
+} */
+
+li, a, h1, h2, h3, h4, h5, h6, p, span, i, button {
+    font-family: sofia pro;
+}
+
+/* navbar */
+ul li {
+    font-family: sofia pro;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 0px 10px;
+}
+
+li a {
+    color: black !important
+}
+
+/* .second-nav li {
+    padding-top: 10px;
+} */
+
+.navbar-toggler {
+    background: #462686;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+
+.navbar-toggler span + span {
+    width: 18px;
+    margin: 4px 0 0 4px;
+    width: 22px;
+}
+
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 4px;
+}
+
+.navbar-brand img {
+    height:90px
+}
+
+.navbar .button {
+    background-color: #462686;
+    color: white !important;
+    border-radius: 30px;
+    width: 179px;
+    text-align: center;
+}
+
+.mega-menu {
+    /* width: 1410px; */
+    overflow: hidden;
+    padding: 10px;
+    border: 0px;
+    padding: 65px 0px
+}
+
+.mega-menu i {
+    font-size: 20px;
+    color: rgba(70, 38, 134, 1);
+}
+
+.mega-menu h1 {
+    font-size: 16px;
+}
+
+.mega-menu p {
+    font-size: 14px;
+    color: #C4C4C4;
+    line-height: 20px;
+    padding-left: 40px;
+}
+
+/* collaborate */
+.collaborate {
+    padding-bottom: 60px;
+}
+
+.collaborate div {
+    padding: 60px;
+}
+
+.collaborate h1 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    padding-bottom: 80px;
+}
+
+.collaborate p {
+    font-size: 20px;
+    line-height: 32px;
+    padding-left: 103px;
+    color: #C4C4C4;
+}
+
+.collaborate button {
+    color: white;
+    border-radius: 30px;
+    width: 273px;
+    height: 72px;
+    margin-left: 103px;
+    background-color: #462686;
+}
+
+/* brands */
+.brands p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.brands .center {
+    margin: auto 0px
+}
+
+/* areas */
+.area-container {
+    padding-top: 85px;
+}
+
+.areas {
+    height: 79px;
+    margin: 60px 0px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.areas div {
+    height:77px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.areas p {
+    margin-top: auto 0px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#white {
+    color: white
+}
+
+.areas div:nth-child(1) {
+    background-color: #462686;
+}
+
+/* card */
+.text{
+    padding: 0px 100px;
+    margin: auto 0px
+}
+
+.right .text h1, .dashboard .text h1, .left .text h1 {
+    font-size: 40px;
+    line-height: 48px;
+    padding-bottom: 20px;
+}
+
+.right .text p, .dashboard .text p, .left .text p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #C4C4C4;
+}
+
+.right .img{
+    padding: 90px 180px 90px 0px;
+}
+
+.left .text {
+    padding: 0px 35px;
+}
+
+.left .img {
+    padding: 90px 0px 90px 180px;
+}
+
+.tools h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    padding-bottom: 80px;
+}
+
+.tools .tool-row {
+    padding-bottom: 30px;
+}
+
+/* free trial */
+.free-trial {
+    background-color: #7837F8 ;
+    padding: 90px 20px
+}
+
+.free-trial h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.free-trial p {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 56px;
+}
+
+.free-trial button {
+    border-radius: 40px;
+    width: 273px;
+    height: 72px;
+    background-color: #462686;
+    color: white;
+}
+
+.free-trial button i {
+    padding: 0px 10px
+}
+
+/* footer  */
+footer {
+    padding: 64px 97px;
+}
+
+#footer-logo {
+    height: 108px
+}
+
+footer h3 {
+    color: #454545;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+footer p {
+    color: #C4C4C4;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+#terms {
+    padding-bottom: 75px;
+}
+
+#call {
+    margin-bottom: 33px;
+}
+
+#handles i {
+    color: #333333;
+    padding-right: 8px
+}
+
+footer button {
+    float: right;
+    background-color: white;
+    color: #462686;
+    Font-size: 16px;
+    border: solid 1px #462686;
+    border-radius: 10px;
+    padding:0px 20px;
+    text-align: left;
+    width: 219px;
+    height: 48px;
+    margin-bottom: 59px;
+}
+
+.menu .row{
+    clear:right
+}
+
+.menu h3 {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.menu p{
+    font-size: 13px;
+}
+
+
+
+/* media queries */
+@media (min-width: 1376px) {
+    .mega-menu {
+        width: 1410px
+    }
+    
+    .dropdown-menu {
+        left: -230px
+    }
+}
+
+@media (min-width: 1201px) and (max-width:1375px){
+    ul li {
+        font-size: 15px;
+    }
+
+    .mega-menu {
+        width: 1055px
+    }
+    
+    .dropdown-menu {
+        left: -230px
+    }
+
+    /* collaborate  */
+    .collaborate h1 {
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 990px) and (max-width:1200px){
+    /* navbar  */
+    .navbar-brand img {
+        height: 80px;
+    }
+
+    .navbar .button {
+        width: 119px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    .mega-menu {
+        width: 1055px
+    }
+    
+    .dropdown-menu {
+        left: -230px
+    }
+
+    /* collaborate  */
+    .collaborate h1 {
+        font-size: 27px;
+        line-height: 44px;
+        padding-bottom: 11px;
+    }
+
+    .collaborate p {
+        font-size: 16px;
+        line-height: 32px;
+        padding-left: 70px;
+    }
+
+    .collaborate button {
+        width: 240px;
+        height: 51px;
+        margin-left: 70px;
+    }
+
+    /* areas  */
+    .area-container {
+        padding-top: 55px;
+    }
+
+    .right{
+        padding-top: 40px;
+    }
+
+    .right .img {
+        padding: 0px;
+    }
+
+    .left{
+        padding-top: 100px;
+    }
+
+    .left .img{
+        padding: 0px
+    }
+
+    .free-trial {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:989px){
+        /* navbar  */
+        .navbar-brand img {
+            height: 70px;
+        }
+    
+        .navbar .button {
+            width: 119px;
+        }
+    
+        ul li {
+            font-size: 14px;
+            padding: 0px;
+        }
+
+        .mega-menu {
+            width: 670px;
+            padding: 10px;
+        }
+
+        /* collaborate  */
+        .collaborate h1 {
+            font-size: 19px;
+            line-height: 31px;
+            padding-bottom: 0px;
+        }
+
+        .collaborate p {
+            font-size: 16px;
+            line-height: 24px;
+            padding-left: 40px;
+        }
+
+        .collaborate button {
+            width: 156px;
+            height: 61px;
+            margin-left: 40px;
+        }
+
+        /* areas  */
+        .area-container {
+        padding: 40px 0px 20px 0px;
+        }
+
+        .text {
+            padding: 0px
+        }
+
+        .right {
+            padding-bottom: 40px;
+        }
+
+        .right .img {
+            padding: 0;
+        }
+
+        .left{
+            padding: 0px 0px 40px 0px;
+        }
+    
+        .left .img{
+            padding: 0px;
+            margin: auto 0px
+        }
+
+        .free-trial h1 {
+            font-size: 45px;
+        }
+
+        .free-trial p {
+            font-size: 18px;
+        }
+
+        .tool-row div {
+            padding: 10px 0px
+        }
+
+        /* footer  */
+        footer{
+            padding: 0px 97px;
+        }
+
+        #footer-logo {
+            height: 90px;
+        }
+
+        #terms {
+            padding-bottom: 25px;
+        }
+
+        footer .menu {
+            padding: 40px 0px
+        }
+}
+
+@media (min-width: 386px) and (max-width: 768px) {
+    /* navbar  */
+    .navbar-brand img {
+        height: 70px;
+    }
+
+    .mega-menu {
+        width: 355px;
+        padding: 10px;
+    }
+    
+    /* collaborate  */
+    .collaborate div {
+        padding: 40px;
+    }
+
+    .collaborate h1 {
+        font-size: 33px;
+        line-height: 31px;
+        padding-bottom: 15px;
+    }
+
+    .collaborate p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 40px;
+    }
+
+    .collaborate button {
+        width: 241px;
+        height: 40px;
+        margin-left: 40px;
+    }
+
+    /* areas  */
+    .area-container {
+        padding: 55px 0px 350px 0px;
+    }
+
+    .text {
+        padding: 0px
+    }
+
+    .right {
+        padding-bottom: 70px;
+    }
+
+    .right .img {
+        padding: 0;
+    }
+
+    .left{
+        padding: 0px 0px 40px 0px;
+    }
+
+    .left .text {
+        padding: 0px
+    }
+
+    .left .img{
+        padding: 0px;
+        margin: auto 0px
+    }
+
+    /* tools  */
+    .tools h1 {
+        font-size: 27px;
+        line-height: 37px;
+        padding-bottom: 27px;
+    }
+
+    .tool-row div {
+        padding: 10px 0px
+    }
+
+    .free-trial h1 {
+        font-size: 35px;
+    }
+
+    .free-trial p {
+        font-size: 18px;
+    }
+
+    /* footer  */
+    footer{
+        padding: 0px 97px;
+    }
+
+    #footer-logo {
+        height: 90px;
+    }
+
+    #terms {
+        padding-bottom: 25px;
+    }
+
+    footer .menu {
+        padding: 40px 0px
+    }
+}
+
+
+@media (max-width: 385px) {
+    /* navbar  */
+    .navbar-brand img {
+        height: 80px;
+    }
+
+    .navbar .button {
+        width: 119px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    .mega-menu {
+        width: 300px;
+        padding: 10px;
+    }
+
+    /* collaborate  */
+    .collaborate div {
+        padding: 29px;
+    }
+
+    .collaborate h1 {
+        font-size: 27px;
+        line-height: 40px;
+        padding-bottom: 11px;
+    }
+
+    .collaborate p {
+        font-size: 16px;
+        line-height: 32px;
+        padding-left: 30px;
+    }
+
+    .collaborate button {
+        width: 240px;
+        height: 51px;
+        margin-left: 30px;
+    }
+
+    /* areas  */
+    .area-container {
+        padding: 55px 0px 325px 0px;
+    }
+
+    .text {
+        padding: 0px
+    }
+
+    .right {
+        padding: 40px;
+    }
+
+    .right .img {
+        padding: 0;
+    }
+
+    .right .text h1, .dashboard .text h1, .left .text h1 {
+        font-size: 27px;
+        line-height: 40px;
+        padding-bottom: 0px;
+    }
+
+    .left{
+        padding: 0px;
+    }
+
+    .left .img{
+        padding: 0px;
+        margin: auto 0px
+    }
+
+    /* tools  */
+    .tools h1 {
+        font-size: 27px;
+        line-height: 37px;
+        padding-bottom: 27px;
+    }
+    
+    .tool-row div {
+        padding: 10px 0px
+    }
+
+    /* footer  */
+    footer{
+        padding: 0px 30px;
+    }
+
+    #footer-logo {
+        height: 90px;
+    }
+
+    #terms {
+        padding-bottom: 25px;
+    }
+
+    footer .menu {
+        padding: 40px 0px
+    }
+}
+
+

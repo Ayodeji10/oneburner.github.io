@@ -1,0 +1,164 @@
+/* .container-fluid {
+    padding: 0px;
+    margin: 0px;
+} */
+
+/* @font-face {
+    src: url(fonts/SofiaProRegular Az.otf);
+    font-family: sofia pro;
+} */
+
+li, a, h1, h2, h3, h4, h5, h6, p, span, i, button {
+    font-family: sofia pro;
+}
+
+/* navbar */
+ul li {
+    font-family: sofia pro;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 0px 10px;
+}
+
+li a {
+    color: black !important
+}
+
+/* .second-nav li {
+    padding-top: 10px;
+} */
+
+.navbar-toggler {
+    background: #462686;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+
+.navbar-toggler span + span {
+    width: 18px;
+    margin: 4px 0 0 4px;
+    width: 22px;
+}
+
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 4px;
+}
+
+.navbar-brand img {
+    height:90px
+}
+
+.navbar .button {
+    background-color: #462686;
+    color: white !important;
+    border-radius: 30px;
+    width: 179px;
+    text-align: center;
+}
+
+.sign-in {
+    margin: auto 0px;
+    padding: 40px 0px
+}
+
+.text h1{
+    text-align: center;
+}
+
+.text > p {
+    text-align: center;
+}
+
+.form {
+    width: 600px;
+    margin: 0px auto;
+}
+
+.form p {
+    margin-bottom: 5px;
+}
+
+.form input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.form button {
+    width: 100%;
+    height: 64px;
+    margin: 24px 0px;
+    background-color: #462686 ;
+    color: white;
+    border-radius: 30px;
+}
+
+a p {
+    text-align: center;
+    text-decoration: none !important;
+    color: #462686;
+}
+
+.footer p {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+
+
+
+/* media queries */
+@media (min-width: 1201px) and (max-width:1375px){
+
+}
+
+@media (min-width: 990px) and (max-width:1200px){
+    /* navbar  */
+    .navbar-brand img {
+        height: 80px;
+    }
+
+    .navbar .button {
+        width: 119px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:989px){
+    /* navbar  */
+    .navbar-brand img {
+        height: 70px;
+    }
+
+    .navbar .button {
+        width: 119px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding: 0px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+    
+}
+
+@media (max-width: 375px) {
+    
+}

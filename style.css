@@ -92,7 +92,7 @@ li a {
 
 /* collaborate */
 .collaborate {
-    padding-bottom: 85px;
+    padding-bottom: 50px;
 }
 
 .collaborate div {
@@ -101,13 +101,14 @@ li a {
 
 .collaborate h1 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 60px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
+    color: #462686;
 }
 
 .collaborate p {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 32px;
     padding-left: 103px;
     color: #C4C4C4;
@@ -190,7 +191,7 @@ li a {
 }
 
 .left .text {
-    padding: 0px 35px;
+    padding: 0px 70px;
 }
 
 .left .img {
